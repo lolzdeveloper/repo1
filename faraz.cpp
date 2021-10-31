@@ -25,6 +25,7 @@ public:
                 if(curr->right != NULL) curr = curr->right;
                 else{
                     curr->right = new TreeNode(val);
+                    // now break;
                     break;
                 }
             }
