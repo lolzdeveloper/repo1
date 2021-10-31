@@ -12,7 +12,7 @@ struct TreeNode{
         right = NULL;
     }
 };
-
+// created tree structure
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
